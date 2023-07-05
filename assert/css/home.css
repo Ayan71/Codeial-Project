@@ -1,0 +1,27 @@
+
+#button{
+  background-color: blue;
+}
+.chatbox{ 
+     border: 2px solid black;
+     height: 325px;
+     width: 247px;
+     margin-left: 75rem;
+     margin-top: 15rem;
+     
+ 
+  
+}
+#chat{
+    margin-top: 105px;
+}
+#msg1{
+    color: blue;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+#msg2{
+    color: red;
+    margin-top: 20px;
+    margin-left: 80px;
+}

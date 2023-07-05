@@ -1,0 +1,20 @@
+
+<%-include("header")-%>
+
+<form action="/users/create-session" method="post" class="rounded container mt-5 bg-danger p-5 text-light w-25 ">
+    <div class="mb-3">
+        <label for="ayan" class="form-label">Email address </label>
+        <input type="email" name="email" id="ayan" class="form-control"aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text text-warning">We'll never share your email with anyone else.</div>
+    </div>
+    <div>
+        <label for="ayan" class="form=label">Password</label>
+        <input type="password" name="password" id="ayan"  class="form-control">
+    </div>
+    <button type="submit" class="btn ">submit</button>
+   </form>
+
+
+   <p>
+    <a href="/users/auth/google">Google sign-in</a>
+   </p>
